@@ -1,0 +1,302 @@
+
+08:36:29.694 INFO ParseArchs(): Active architecture: i386
+
+08:36:29.695 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildAppAlgorithm
+
+08:36:29.695 WARNING executeXCodeAlgorithm(): Provisioning profile is not specified! Default one will be chosen!
+
+08:36:29.696 WARNING executeXCodeAlgorithm(): Signing identity is not specified! Default one will be chosen!
+
+08:36:29.697 INFO start(): Running command line: "[xcodebuild ARCHS=i386  -configuration Debug -sdk iphonesimulator9.2 -target BitBetGo -project /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo.xcodeproj]"
+
+08:36:30.343 INFO run(): module "runXCodeBuild": out_stream: "Build settings from command line:"
+
+08:36:30.343 INFO run(): module "runXCodeBuild": out_stream: "    ARCHS = i386 "
+
+08:36:30.343 INFO run(): module "runXCodeBuild": out_stream: "    SDKROOT = iphonesimulator9.2"
+
+08:36:30.343 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:30.750 INFO run(): module "runXCodeBuild": out_stream: "=== BUILD TARGET BitBetGo OF PROJECT BitBetGo WITH CONFIGURATION Debug ==="
+
+08:36:30.750 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:30.750 INFO run(): module "runXCodeBuild": out_stream: "Check dependencies"
+
+08:36:31.048 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:31.048 INFO run(): module "runXCodeBuild": out_stream: "Write auxiliary files"
+
+08:36:31.048 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-own-target-headers.hmap"
+
+08:36:31.048 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+08:36:31.048 INFO run(): module "runXCodeBuild": out_stream: "chmod 0755 /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-project-headers.hmap"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-all-non-framework-target-headers.hmap"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "/bin/mkdir -p /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/BitBetGo.LinkFileList"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-all-target-headers.hmap"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-generated-files.hmap"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo.hmap"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "write-file /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: "chmod 0755 /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+08:36:31.049 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:31.050 INFO run(): module "runXCodeBuild": out_stream: "Create product structure"
+
+08:36:31.050 INFO run(): module "runXCodeBuild": out_stream: "/bin/mkdir -p /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:36:31.050 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:31.076 INFO run(): module "runXCodeBuild": out_stream: "PhaseScriptExecution Compile\ Java\ Sources /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+08:36:31.076 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:31.076 INFO run(): module "runXCodeBuild": out_stream: "    /bin/sh -c /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-49AA605530A7D95E17B0A3EB.sh"
+
+08:36:31.283 INFO run(): module "runXCodeBuild": out_stream: "java version "1.8.0_65""
+
+08:36:31.285 INFO run(): module "runXCodeBuild": out_stream: "Java(TM) SE Runtime Environment (build 1.8.0_65-b17)"
+
+08:36:31.285 INFO run(): module "runXCodeBuild": out_stream: "Java HotSpot(TM) 64-Bit Server VM (build 25.65-b01, mixed mode)"
+
+08:36:35.547 INFO run(): module "runXCodeBuild": out_stream: ":ios:compileJava UP-TO-DATE"
+
+08:36:35.632 INFO run(): module "runXCodeBuild": out_stream: ":ios:proguard"
+
+08:36:35.632 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:35.669 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:35.669 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_BUILD_PROGUARD.txt"."
+
+08:36:38.451 INFO run(): module "runXCodeBuild": out_stream: ":ios:resPack"
+
+08:36:38.457 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:38.462 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:38.462 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_RESOURCE_PACKAGING.txt"."
+
+08:36:40.384 INFO run(): module "runXCodeBuild": out_stream: ":ios:buildRetro"
+
+08:36:40.384 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:40.390 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:40.392 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_BUILD_RETRO.txt"."
+
+08:36:41.189 INFO run(): module "runXCodeBuild": out_stream: ":ios:buildDex"
+
+08:36:41.190 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:41.198 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:41.199 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_BUILD_DEX.txt"."
+
+08:36:41.913 INFO run(): module "runXCodeBuild": out_stream: ":ios:buildArtOat"
+
+08:36:41.914 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:41.916 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:41.916 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_BUILD_ART_OAT.txt"."
+
+08:36:56.964 INFO run(): module "runXCodeBuild": out_stream: ":ios:buildPreregister"
+
+08:36:56.967 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:57.002 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:57.002 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_BUILD_PREREGISTER.txt"."
+
+08:36:57.042 INFO run(): module "runXCodeBuild": out_stream: ":ios:buildPrecopy"
+
+08:36:57.043 INFO run(): module "runXCodeBuild": out_stream: "Provisioning Profile was not set."
+
+08:36:57.043 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:57.043 INFO run(): module "runXCodeBuild": out_stream: "Log file: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/logs/2015.12.29_08.36.35+0100_BUILD_PRECOPY.txt"."
+
+08:36:57.043 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:57.043 INFO run(): module "runXCodeBuild": out_stream: "BUILD SUCCESSFUL"
+
+08:36:57.046 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:57.046 INFO run(): module "runXCodeBuild": out_stream: "Total time: 25.577 secs"
+
+08:36:58.587 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:58.592 INFO run(): module "runXCodeBuild": out_stream: "CpResource /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/application.jar /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/application.jar"
+
+08:36:58.592 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:58.593 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:36:58.593 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/application.jar /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:36:58.600 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:58.600 INFO run(): module "runXCodeBuild": out_stream: "CpResource /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/intel_logo.png /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/intel_logo.png"
+
+08:36:58.600 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:58.600 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:36:58.600 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/intel_logo.png /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:36:58.602 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:58.603 INFO run(): module "runXCodeBuild": out_stream: "CpResource BitBetGo/preregister.txt /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/preregister.txt"
+
+08:36:58.603 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:58.603 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:36:58.603 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo/preregister.txt /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:36:58.606 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:58.607 INFO run(): module "runXCodeBuild": out_stream: "CompileXIB /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/LaunchScreen.xib"
+
+08:36:58.607 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:58.607 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:36:58.607 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+08:36:58.607 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module BitBetGo --output-partial-info-plist /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/LaunchScreen-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --compile /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/LaunchScreen.nib /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/LaunchScreen.xib"
+
+08:36:59.348 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:59.348 INFO run(): module "runXCodeBuild": out_stream: "CpResource BitBetGo/precopy.txt /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/precopy.txt"
+
+08:36:59.348 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo/precopy.txt /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "CompileStoryboard /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/MainUI.storyboard"
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+08:36:59.349 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module BitBetGo --output-partial-info-plist /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/MainUI-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --compilation-directory /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/MainUI.storyboard"
+
+08:37:01.233 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:01.235 INFO run(): module "runXCodeBuild": out_stream: "ProcessInfoPlistFile /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/Info.plist BitBetGo/Info.plist"
+
+08:37:01.235 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:01.235 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:01.235 INFO run(): module "runXCodeBuild": out_stream: "    builtin-infoPlistUtility /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo/Info.plist -genpkginfo /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/LaunchScreen-PartialInfo.plist -additionalcontentfile /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/MainUI-SBPartialInfo.plist -o /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/Info.plist"
+
+08:37:01.243 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:01.245 INFO run(): module "runXCodeBuild": out_stream: "LinkStoryboards"
+
+08:37:01.245 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:01.245 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:01.245 INFO run(): module "runXCodeBuild": out_stream: "    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/.."
+
+08:37:01.245 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module BitBetGo --target-device iphone --target-device ipad --minimum-deployment-target 8.0 --output-format human-readable-text --link /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/MainUI.storyboardc"
+
+08:37:01.258 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:01.259 INFO run(): module "runXCodeBuild": out_stream: "CompileC /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/main.o BitBetGo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler"
+
+08:37:01.259 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:01.259 INFO run(): module "runXCodeBuild": out_stream: "    export LANG=en_US.US-ASCII"
+
+08:37:01.260 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:01.260 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -gmodules -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/var/folders/wz/8f146j8n7y56j2mlw1xcy1ph0000gn/C/org.llvm.clang/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=8.0 -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-generated-files.hmap -I/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-own-target-headers.hmap -I/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-all-target-headers.hmap -iquote /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/BitBetGo-project-headers.hmap -I/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/include -I/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/DerivedSources/i386 -I/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/DerivedSources -F/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator -F/Applications/Intel/multi_os_engine/sdk/iphonesimulator -MMD -MT dependencies -MF /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/main.dia -c /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo/main.m -o /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/main.o"
+
+08:37:02.133 INFO run(): module "runXCodeBuild": out_stream: "/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo/main.m:5:17: warning: unused variable 'jvmParam' [-Wunused-variable]"
+
+08:37:02.133 INFO run(): module "runXCodeBuild": out_stream: "    const char* jvmParam[2];"
+
+08:37:02.133 INFO run(): module "runXCodeBuild": out_stream: "                ^"
+
+08:37:02.134 INFO run(): module "runXCodeBuild": out_stream: "1 warning generated."
+
+08:37:02.154 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:02.157 INFO run(): module "runXCodeBuild": out_stream: "Ld /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/BitBetGo normal i386"
+
+08:37:02.157 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:02.157 INFO run(): module "runXCodeBuild": out_stream: "    export IPHONEOS_DEPLOYMENT_TARGET=8.0"
+
+08:37:02.157 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:02.157 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator -F/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator -F/Applications/Intel/multi_os_engine/sdk/iphonesimulator -filelist /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/BitBetGo.LinkFileList -Xlinker -rpath -Xlinker /Applications/Intel/multi_os_engine/sdk/iphonesimulator -Xlinker -rpath -Xlinker @executable_path/Frameworks -mios-simulator-version-min=8.0 -Xlinker -objc_abi_version -Xlinker 2 -sectcreate __OATDATA __oatdata /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/../build/art/i386/application.oat -sectcreate __ARTDATA __artdata /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/../build/art/i386/image.art -segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw -pagezero_size 1000 -lstdc++ -fobjc-arc -fobjc-link-runtime -framework MOE -Xlinker -dependency_info -Xlinker /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/BitBetGo_dependency_info.dat -o /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/BitBetGo"
+
+08:37:02.704 INFO run(): module "runXCodeBuild": out_stream: "ld: warning: PIE disabled. Absolute addressing (perhaps -mdynamic-no-pic) not allowed in code signed PIE, but used in _main from /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Objects-normal/i386/main.o. To fix this warning, don't compile with -mdynamic-no-pic or link with -Wl,-no_pie"
+
+08:37:02.704 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:02.706 INFO run(): module "runXCodeBuild": out_stream: "GenerateDSYMFile /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app.dSYM /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/BitBetGo"
+
+08:37:02.707 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:02.707 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:02.707 INFO run(): module "runXCodeBuild": out_stream: "    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/BitBetGo -o /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app.dSYM"
+
+08:37:03.014 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:03.015 INFO run(): module "runXCodeBuild": out_stream: "PBXCp /Applications/Intel/multi_os_engine/sdk/iphonesimulator/MOE.framework /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/Frameworks/MOE.framework"
+
+08:37:03.016 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:03.016 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:03.016 INFO run(): module "runXCodeBuild": out_stream: "    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -resolve-src-symlinks /Applications/Intel/multi_os_engine/sdk/iphonesimulator/MOE.framework /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app/Frameworks"
+
+08:37:03.165 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:03.170 INFO run(): module "runXCodeBuild": out_stream: "PhaseScriptExecution Custom\ Copy\ Script /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+08:37:03.171 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:03.171 INFO run(): module "runXCodeBuild": out_stream: "    /bin/sh -c /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/BitBetGo.build/Debug-iphonesimulator/BitBetGo.build/Script-05B97ABD1BC4F68D00F7713D.sh"
+
+08:37:03.191 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:03.196 INFO run(): module "runXCodeBuild": out_stream: "Touch /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:37:03.196 INFO run(): module "runXCodeBuild": out_stream: "    cd /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode"
+
+08:37:03.196 INFO run(): module "runXCodeBuild": out_stream: "    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin""
+
+08:37:03.196 INFO run(): module "runXCodeBuild": out_stream: "    /usr/bin/touch -c /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/xcode/Debug-iphonesimulator/BitBetGo.app"
+
+08:37:03.208 INFO run(): module "runXCodeBuild": out_stream: ""
+
+08:37:03.213 INFO run(): module "runXCodeBuild": out_stream: "** BUILD SUCCEEDED **"
+
+08:37:03.214 INFO run(): module "runXCodeBuild": out_stream: ""

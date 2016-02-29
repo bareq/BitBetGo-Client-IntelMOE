@@ -1,0 +1,10 @@
+
+08:36:41.196 INFO ParseArchs(): Active architecture: i386
+
+08:36:41.196 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildDexAlgorithm
+
+08:36:41.198 INFO dexApplication(): dexApplication: xrtApplication
+
+08:36:41.198 INFO start(): Running command line: "[/Applications/Intel/multi_os_engine/tools/dx --dex --output /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex --core-library /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/output]"
+
+08:36:41.914 INFO createBuildDirectories(): Build directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build

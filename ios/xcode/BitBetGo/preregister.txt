@@ -1,0 +1,2 @@
+com/bartoszlach/bitbetgo/Main
+com/bartoszlach/bitbetgo/ui/AppViewController

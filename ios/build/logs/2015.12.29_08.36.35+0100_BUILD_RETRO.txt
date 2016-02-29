@@ -1,0 +1,38 @@
+
+08:36:40.394 INFO ParseArchs(): Active architecture: i386
+
+08:36:40.395 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildRetroAlgorithm
+
+08:36:40.395 WARNING start(): Creating of the input directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/input
+
+08:36:40.396 WARNING start(): Creating of the output directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/output
+
+08:36:40.402 INFO start(): Running command line: "[java -Dretrolambda.inputDir=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/input -Dretrolambda.classpath=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/input:/Applications/Intel/multi_os_engine/sdk/intel-moe-core.jar:/Applications/Intel/multi_os_engine/sdk/intel-moe-ios.jar -Dretrolambda.outputDir=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/output -Dretrolambda.natjSupport=true -Dretrolambda.defaultMethods=true -jar /Applications/Intel/multi_os_engine/tools/retrolambda.jar]"
+
+08:36:40.633 INFO run(): module "run retrolambda": out_stream: "Retrolambda 2.0.2-SNAPSHOT"
+
+08:36:40.646 INFO run(): module "run retrolambda": out_stream: "Bytecode version: 51 (Java 7)"
+
+08:36:40.647 INFO run(): module "run retrolambda": out_stream: "Default methods:  true"
+
+08:36:40.647 INFO run(): module "run retrolambda": out_stream: "NatJ support:     true"
+
+08:36:40.647 INFO run(): module "run retrolambda": out_stream: "Input directory:  /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/input"
+
+08:36:40.647 INFO run(): module "run retrolambda": out_stream: "Output directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/output"
+
+08:36:40.647 INFO run(): module "run retrolambda": out_stream: "Classpath:        /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/retro/input:/Applications/Intel/multi_os_engine/sdk/intel-moe-core.jar:/Applications/Intel/multi_os_engine/sdk/intel-moe-ios.jar"
+
+08:36:41.104 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/bartoszlach/bitbetgo/Main.applicationDidFinishLaunchingWithOptions"
+
+08:36:41.105 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/bartoszlach/bitbetgo/Main.setWindow"
+
+08:36:41.106 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/bartoszlach/bitbetgo/Main.window"
+
+08:36:41.106 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/bartoszlach/bitbetgo/Main"
+
+08:36:41.151 INFO run(): module "run retrolambda": out_stream: "Injected NatJ annotations into com/bartoszlach/bitbetgo/ui/AppViewController.viewDidLoad"
+
+08:36:41.155 INFO run(): module "run retrolambda": out_stream: "Injected NatJ.register() into com/bartoszlach/bitbetgo/ui/AppViewController"
+
+08:36:41.191 INFO createBuildDirectories(): Build directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build

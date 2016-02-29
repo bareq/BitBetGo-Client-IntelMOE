@@ -1,0 +1,2 @@
+
+08:36:40.389 INFO createBuildDirectories(): Build directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build

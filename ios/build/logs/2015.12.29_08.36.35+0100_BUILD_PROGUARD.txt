@@ -1,0 +1,112 @@
+
+08:36:35.700 INFO ParseArchs(): Active architecture: i386
+
+08:36:35.702 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.ProGuardAlgorithm
+
+08:36:35.704 INFO doConfigAction(): Config file: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/proguard/proguard.cfg
+
+08:36:35.705 INFO start(): Running command line: "[java -jar /Applications/Intel/multi_os_engine/tools/proguard.jar @/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/proguard/proguard.cfg]"
+
+08:36:35.959 INFO run(): module "proGuard": out_stream: "ProGuard, version 5.2.1"
+
+08:36:35.995 INFO run(): module "proGuard": out_stream: "Reading input..."
+
+08:36:36.135 INFO run(): module "proGuard": out_stream: "Reading program directory [/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/classes/main]"
+
+08:36:36.165 INFO run(): module "proGuard": out_stream: "Reading library jar [/Applications/Intel/multi_os_engine/sdk/intel-moe-core.jar]"
+
+08:36:37.316 INFO run(): module "proGuard": out_stream: "Reading library jar [/Applications/Intel/multi_os_engine/sdk/intel-moe-ios.jar]"
+
+08:36:37.750 INFO run(): module "proGuard": out_stream: "Initializing..."
+
+08:36:37.757 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'junit.framework.TestCase'"
+
+08:36:37.835 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'junit.framework.TestCase'"
+
+08:36:37.855 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'android.app.backup.BackupAgent'"
+
+08:36:37.881 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'android.appwidget.AppWidgetProvider'"
+
+08:36:37.895 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'scala.collection.SeqLike'"
+
+08:36:37.927 INFO run(): module "proGuard": out_stream: "Note: the configuration refers to the unknown class 'scala.reflect.ScalaSignature'"
+
+08:36:38.158 INFO run(): module "proGuard": out_stream: "Note: there were 6 references to unknown classes."
+
+08:36:38.159 INFO run(): module "proGuard": out_stream: "      You should check your configuration for typos."
+
+08:36:38.159 INFO run(): module "proGuard": out_stream: "      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)"
+
+08:36:38.159 INFO run(): module "proGuard": out_stream: "Note: you're ignoring all warnings!"
+
+08:36:38.159 INFO run(): module "proGuard": out_stream: "Ignoring unused library classes..."
+
+08:36:38.159 INFO run(): module "proGuard": out_stream: "  Original number of library classes: 9625"
+
+08:36:38.159 INFO run(): module "proGuard": out_stream: "  Final number of library classes:    227"
+
+08:36:38.160 INFO run(): module "proGuard": out_stream: "Printing kept classes, fields, and methods..."
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main"
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: ios.uikit.UIWindow window"
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: void main(java.lang.String[])"
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: com.bartoszlach.bitbetgo.Main alloc()"
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: Main(com.intel.inde.moe.natj.general.Pointer)"
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: boolean applicationDidFinishLaunchingWithOptions(ios.uikit.UIApplication,ios.foundation.NSDictionary)"
+
+08:36:38.174 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: void setWindow(ios.uikit.UIWindow)"
+
+08:36:38.175 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.Main: ios.uikit.UIWindow window()"
+
+08:36:38.175 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController"
+
+08:36:38.175 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.uikit.UILabel statusText"
+
+08:36:38.175 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.uikit.UIButton helloButton"
+
+08:36:38.175 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: com.bartoszlach.bitbetgo.ui.AppViewController alloc()"
+
+08:36:38.175 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: com.bartoszlach.bitbetgo.ui.AppViewController init()"
+
+08:36:38.176 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: AppViewController(com.intel.inde.moe.natj.general.Pointer)"
+
+08:36:38.176 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: void viewDidLoad()"
+
+08:36:38.176 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.uikit.UILabel getLabel()"
+
+08:36:38.176 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.uikit.UIButton getHelloButton()"
+
+08:36:38.176 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: void BtnPressedCancel_button(ios.NSObject)"
+
+08:36:38.176 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.uikit.UIViewController init()"
+
+08:36:38.177 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.uikit.UIResponder init()"
+
+08:36:38.177 INFO run(): module "proGuard": out_stream: "com.bartoszlach.bitbetgo.ui.AppViewController: ios.NSObject init()"
+
+08:36:38.177 INFO run(): module "proGuard": out_stream: "Shrinking..."
+
+08:36:38.177 INFO run(): module "proGuard": out_stream: "Printing usage to [standard output]..."
+
+08:36:38.264 INFO run(): module "proGuard": out_stream: "Removing unused program classes and class elements..."
+
+08:36:38.264 INFO run(): module "proGuard": out_stream: "  Original number of program classes: 2"
+
+08:36:38.264 INFO run(): module "proGuard": out_stream: "  Final number of program classes:    2"
+
+08:36:38.264 INFO run(): module "proGuard": out_stream: "Inlining subroutines..."
+
+08:36:38.272 INFO run(): module "proGuard": out_stream: "Preverifying..."
+
+08:36:38.356 INFO run(): module "proGuard": out_stream: "Writing output..."
+
+08:36:38.362 INFO run(): module "proGuard": out_stream: "Preparing output jar [/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/proguard/proguarded.jar]"
+
+08:36:38.369 INFO run(): module "proGuard": out_stream: "  Copying resources from program directory [/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/classes/main]"
+
+08:36:38.455 INFO createBuildDirectories(): Build directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build

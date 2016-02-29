@@ -1,0 +1,14 @@
+
+08:36:56.928 INFO ParseArchs(): Active architecture: i386
+
+08:36:56.928 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildPreregisterAlgorithm
+
+08:36:56.929 INFO start(): Location of preregister file: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/xcode/BitBetGo/preregister.txt
+
+08:36:56.930 INFO start(): Checking /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/proguard/proguarded.jar
+
+08:36:56.947 INFO start(): Found annotation for: com/bartoszlach/bitbetgo/Main
+
+08:36:56.948 INFO start(): Found annotation for: com/bartoszlach/bitbetgo/ui/AppViewController
+
+08:36:56.959 INFO createBuildDirectories(): Build directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build

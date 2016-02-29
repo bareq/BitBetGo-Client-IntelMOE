@@ -1,0 +1,72 @@
+
+08:36:41.917 INFO ParseArchs(): Active architecture: i386
+
+08:36:41.918 WARNING ExecuteTask(): org.intel.xrt_builder.Algorithms.BuildArtOatAlgorithm
+
+08:36:41.918 INFO start(): Running command line: "[java -cp /Applications/Intel/multi_os_engine/tools/uiTransformer.jar org.intel.transformer.OSXUITransformer --ixml-res-path=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources --out-format=storyboard --out-filename=MainUI --out-path=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources --uitransformer-res-path=/Applications/Intel/multi_os_engine/tools/UITransformer-res]"
+
+08:36:42.101 INFO run(): module "runUITransformer": out_stream: "OSXUITransformer exec"
+
+08:36:42.107 INFO run(): module "runUITransformer": out_stream: "ixml_res_path: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/layout"
+
+08:36:42.107 INFO run(): module "runUITransformer": out_stream: "out_path: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources"
+
+08:36:42.107 INFO run(): module "runUITransformer": out_stream: "out_filename: MainUI"
+
+08:36:42.107 INFO run(): module "runUITransformer": out_stream: "xslt_template: StoryboardTemplate.xsl"
+
+08:36:44.473 INFO run(): module "runUITransformer": out_stream: "Done"
+
+08:36:46.018 INFO start(): Running command line: "[ibtool /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/MainUI.storyboard --write /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/src/main/resources/MainUI.storyboard --update-frames --errors --warnings --notices]"
+
+08:36:50.580 INFO run(): module "call_ibtool": out_stream: "<?xml version="1.0" encoding="UTF-8"?>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "<plist version="1.0">"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "<dict>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.errors</key>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.notices</key>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "	<key>com.apple.ibtool.document.warnings</key>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "	<dict/>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "</dict>"
+
+08:36:50.581 INFO run(): module "call_ibtool": out_stream: "</plist>"
+
+08:36:50.593 INFO start(): Running command line: "[/Applications/Intel/multi_os_engine/tools/dex2oat --instruction-set=x86 --base=40000000 --compiler-backend=Quick --image=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/art/i386/image.art --image-classes=/Applications/Intel/multi_os_engine/tools/preloaded-classes --oat-file=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/art/i386/application.oat --dex-file=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex:/Applications/Intel/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/multi_os_engine/sdk/intel-moe-core.dex]"
+
+08:36:50.630 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/dex2oat/dex2oat.cc:2220] /Applications/Intel/multi_os_engine/tools/dex2oat --instruction-set=x86 --base=40000000 --compiler-backend=Quick --image=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/art/i386/image.art --image-classes=/Applications/Intel/multi_os_engine/tools/preloaded-classes --oat-file=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/art/i386/application.oat --dex-file=/Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex:/Applications/Intel/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/multi_os_engine/sdk/intel-moe-core.dex"
+
+08:36:50.636 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/runtime/parsed_options.cc:449] setting boot class path to /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex:/Applications/Intel/multi_os_engine/sdk/intel-moe-ios-retro.dex:/Applications/Intel/multi_os_engine/sdk/intel-moe-core.dex"
+
+08:36:52.536 WARNING run(): module "runDex2Oat": err_stream: "dex2oat W  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/compiler/dex/verification_results.cc:61] Method processed more than once: void android.icu.text.NumberFormat.<clinit>()"
+
+08:36:52.597 WARNING run(): module "runDex2Oat": err_stream: "dex2oat W  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/compiler/dex/verification_results.cc:61] Method processed more than once: java.lang.String java.lang.AbstractStringBuilder.substring(int)"
+
+08:36:52.637 WARNING run(): module "runDex2Oat": err_stream: "dex2oat W  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/compiler/dex/verification_results.cc:61] Method processed more than once: java.lang.String com.android.org.bouncycastle.util.Strings.toLowerCase(java.lang.String)"
+
+08:36:52.671 WARNING run(): module "runDex2Oat": err_stream: "dex2oat W  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/compiler/dex/verification_results.cc:61] Method processed more than once: java.lang.String java.lang.IntegralToString.stringOf(char[])"
+
+08:36:52.696 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/runtime/gc/heap.cc:2713] Explicit concurrent mark sweep GC freed 21422(4MB) AllocSpace objects, 0(0B) LOS objects, 38% free, 6MB/10MB, paused 491us total 14.567ms"
+
+08:36:56.596 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/runtime/gc/heap.cc:2713] Explicit concurrent mark sweep GC freed 18199(5MB) AllocSpace objects, 0(0B) LOS objects, 66% free, 1793KB/5MB, paused 19us total 6.741ms"
+
+08:36:56.864 WARNING run(): module "runDex2Oat": err_stream: "dex2oat I  9578 514562 /teamcity/workdir/moe_repo_build/moe_repo/art/dex2oat/dex2oat.cc:2009] dex2oat took 6.237s (threads: 4) arena alloc=2MB java alloc=1796KB"
+
+08:36:56.866 INFO run(): module "runDex2Oat": out_stream: " 3 Zip: EOCD not found, /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex is not zip"
+
+08:36:56.866 INFO run(): module "runDex2Oat": out_stream: " 3 Zip: EOCD not found, /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex is not zip"
+
+08:36:56.866 INFO run(): module "runDex2Oat": out_stream: " 3 Zip: EOCD not found, /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build/dex/xrtApplication.dex is not zip"
+
+08:36:56.923 INFO createBuildDirectories(): Build directory: /Users/bartoszlach/OneDrive/AndroidCloud/BitBetGo/ios/build
