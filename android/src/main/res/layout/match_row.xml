@@ -26,8 +26,7 @@
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:background="#FF0000" />
+                    android:layout_height="100dp" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -42,8 +41,7 @@
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:background="#00FF00" />
+                    android:layout_height="100dp" />
 
             </TableRow>
 
@@ -55,13 +53,13 @@
 
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/btn_bet1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="BET" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_bet_draw"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -69,7 +67,7 @@
                     android:text="DRAW" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn_bet2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="BET" />

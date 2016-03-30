@@ -17,14 +17,15 @@ public class MatchModel {
     private String league;
     private String teamName1;
     private String teamName2;
-    private Drawable teamImage1;
-    private Drawable teamImage2;
-    private BigDecimal bank;
+    private String teamImage1;
+    private String teamImage2;
+    private long bank;
 
     public MatchModel() {
     }
 
-    public MatchModel(Timestamp matchDate, String league, String teamName1, String teamName2, Drawable teamImage1, Drawable teamImage2, BigDecimal bank) {
+    public MatchModel(long id, Timestamp matchDate, String league, String teamName1, String teamName2, String teamImage1, String teamImage2, long bank) {
+        this.id = id;
         this.matchDate = matchDate;
         this.league = league;
         this.teamName1 = teamName1;
@@ -107,42 +108,42 @@ public class MatchModel {
     /**
      * @return the teamImage1
      */
-    public Drawable getTeamImage1() {
+    public String getTeamImage1() {
         return teamImage1;
     }
 
     /**
      * @param teamImage1 the teamImage1 to set
      */
-    public void setTeamImage1(Drawable teamImage1) {
+    public void setTeamImage1(String teamImage1) {
         this.teamImage1 = teamImage1;
     }
 
     /**
      * @return the teamImage2
      */
-    public Drawable getTeamImage2() {
+    public String getTeamImage2() {
         return teamImage2;
     }
 
     /**
      * @param teamImage2 the teamImage2 to set
      */
-    public void setTeamImage2(Drawable teamImage2) {
+    public void setTeamImage2(String teamImage2) {
         this.teamImage2 = teamImage2;
     }
 
     /**
      * @return the bank
      */
-    public BigDecimal getBank() {
+    public long getBank() {
         return bank;
     }
 
     /**
      * @param bank the bank to set
      */
-    public void setBank(BigDecimal bank) {
+    public void setBank(long bank) {
         this.bank = bank;
     }
 }

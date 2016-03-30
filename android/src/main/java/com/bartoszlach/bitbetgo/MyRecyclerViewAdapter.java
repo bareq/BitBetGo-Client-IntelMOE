@@ -5,8 +5,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,32 +21,44 @@ public class MyRecyclerViewAdapter extends RecyclerView
         .DataObjectHolder> {
     private static String LOG_TAG = "MyRecyclerViewAdapter";
     private List<MatchModel> mDataset;
-    private static MyClickListener myClickListener;
 
     public static class DataObjectHolder extends RecyclerView.ViewHolder
             implements View
             .OnClickListener {
+        long id;
         ImageView image1;
         ImageView image2;
         TextView bank;
+        Button btn1, btn2, btn3;
 
         public DataObjectHolder(View itemView) {
             super(itemView);
             image1 = (ImageView) itemView.findViewById(R.id.imageView);
             image2 = (ImageView) itemView.findViewById(R.id.imageView2);
             bank = (TextView) itemView.findViewById(R.id.textView2);
-            Log.i(LOG_TAG, "Adding Listener");
-            itemView.setOnClickListener(this);
+            btn1 = (Button) itemView.findViewById(R.id.btn_bet1);
+            btn2 = (Button) itemView.findViewById(R.id.btn_bet_draw);
+            btn3 = (Button) itemView.findViewById(R.id.btn_bet2);
+            btn1.setOnClickListener(this);
+            btn2.setOnClickListener(this);
+            btn3.setOnClickListener(this);
         }
 
         @Override
         public void onClick(View v) {
-            myClickListener.onItemClick(getAdapterPosition(), v);
+            if(v instanceof Button){
+                if(v.equals(btn1)){
+                    Log.d("TEST", id + " Team1");
+                }
+                else if(v.equals(btn2)){
+                    Log.d("TEST", id + " Draw");
+                }
+                else
+                if(v.equals(btn3)){
+                    Log.d("TEST", id + " Team2");
+                }
+            }
         }
-    }
-
-    public void setOnItemClickListener(MyClickListener myClickListener) {
-        this.myClickListener = myClickListener;
     }
 
     public MyRecyclerViewAdapter(List<MatchModel> myDataset) {
@@ -63,27 +77,16 @@ public class MyRecyclerViewAdapter extends RecyclerView
 
     @Override
     public void onBindViewHolder(DataObjectHolder holder, int position) {
-        holder.image1.setBackground(mDataset.get(position).getTeamImage1());
-        holder.image2.setBackground(mDataset.get(position).getTeamImage2());
+        holder.id = mDataset.get(position).getId();
+        ImagesHandle.loadImage(mDataset.get(position).getTeamImage1(), holder.image1);
+        ImagesHandle.loadImage(mDataset.get(position).getTeamImage2(), holder.image2);
         holder.bank.setText(String.valueOf(mDataset.get(position).getBank()));
     }
 
-    public void addItem(MatchModel dataObj, int index) {
-        mDataset.add(index, dataObj);
-        notifyItemInserted(index);
-    }
-
-    public void deleteItem(int index) {
-        mDataset.remove(index);
-        notifyItemRemoved(index);
-    }
 
     @Override
     public int getItemCount() {
         return mDataset.size();
     }
 
-    public interface MyClickListener {
-        public void onItemClick(int position, View v);
-    }
 }

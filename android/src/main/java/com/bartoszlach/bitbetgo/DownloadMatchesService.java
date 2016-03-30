@@ -12,6 +12,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.widget.Toast;
 
 import com.bartoszlach.bitbetgo.core.ApiConnection;
 
@@ -19,8 +20,11 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,18 +42,46 @@ public class DownloadMatchesService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        String result = ApiConnection.excuteGet("http://192.168.0.101:8080/api/getMatchesList/all", "");
+        Bundle bundle = intent.getExtras();
+        Messenger messenger = (Messenger) bundle.get("messenger");
+        Message msg = Message.obtain();
+        Bundle b = new Bundle();
+        String result = ApiConnection.excuteGet(MainActivity.SERVER_ADDRESS+"api/getMatchesList/all", "");
+        if(result == null){
+            b.putString("error", "connection error");
+            msg.setData(b);
+            try {
+                messenger.send(msg);
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+            return;
+        }
         List<MatchModel> matchesList = new ArrayList();
         JSONArray ja;
         try {
             ja = new JSONArray(result);
             for (int i = 0; i < ja.length(); i++) {
                 JSONObject jo = ja.getJSONObject(i);
-                MatchModel model = new MatchModel((Timestamp) jo.get("matchDate"), jo.getString("league"), jo.getString("teamName1"), jo.getString("teamName2"), ContextCompat.getDrawable(getApplicationContext(), R.drawable.chelsea), ContextCompat.getDrawable(getApplicationContext(), R.drawable.arsenal), (BigDecimal) jo.get("bank"));
+                try {
+                    Timestamp time = new Timestamp(new SimpleDateFormat("yyyy-MM-dd HH:mm").parse(jo.getString("matchDate")).getTime());
+
+                MatchModel model = new MatchModel(jo.getLong("id"), time, jo.getString("league"), jo.getString("teamName1"), jo.getString("teamName2"), jo.getString("teamImage1"), jo.getString("teamImage2"), jo.getLong("bank"));
                 matchesList.add(model);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
             }
 
         } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        b.putSerializable("list", (Serializable) matchesList);
+        msg.setData(b);
+        try {
+            messenger.send(msg);
+        } catch (RemoteException e) {
             e.printStackTrace();
         }
     }
