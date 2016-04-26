@@ -1,11 +1,9 @@
 package com.bartoszlach.bitbetgo;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Handler;
 import android.os.Message;
 import android.os.Messenger;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,15 +13,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ListView;
 import android.widget.Toast;
 
-import com.bartoszlach.bitbetgo.core.ApiConnection;
+import com.bartoszlach.bitbetgo.core.MatchModel;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener {
@@ -31,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
     RecyclerView mRecyclerView;
     Handler handler;
     SwipeRefreshLayout swipeRefreshLayout;
-    public static final String SERVER_ADDRESS = "http://192.168.0.101:8080/";
+    public static final String SERVER_ADDRESS = "http://192.168.0.37:8080/";
     public static ImageLoader imageLoader;
 
     @Override
@@ -58,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                     return;
                 }
                 List<MatchModel> matchesList = (List<MatchModel>) msg.getData().get("list");
-                RecyclerView.Adapter mAdapter = new MyRecyclerViewAdapter(matchesList);
+                RecyclerView.Adapter mAdapter = new MyRecyclerViewAdapter(matchesList, MainActivity.this);
                 mRecyclerView.setAdapter(mAdapter);
             }
         };

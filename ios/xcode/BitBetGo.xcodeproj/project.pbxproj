@@ -136,6 +136,7 @@
 		42A49B8ECB7BADB74CF03A8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = intel;
 			};
 			buildConfigurationList = 79EDF3FDAA88E13B08C91F41 /* Build configuration list for PBXProject "BitBetGo" */;
@@ -238,6 +239,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"${XRT_FRAMEWORK_PATH}",
@@ -259,7 +261,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) ${XRT_FRAMEWORK_PATH}";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SYMROOT = ../build/xcode;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -280,6 +282,7 @@
 					"${XRT_CUSTOM_OTHER_LDFLAGS}",
 					"${XRT_OTHER_LDFLAGS}",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bartoszlach.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BitBetGo;
 				STRIP_STYLE = "non-global";
 				VALID_ARCHS = "armv7 arm64 i386 x86_64";
@@ -300,6 +303,7 @@
 					"${XRT_CUSTOM_OTHER_LDFLAGS}",
 					"${XRT_OTHER_LDFLAGS}",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bartoszlach.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = BitBetGo;
 				STRIP_STYLE = "non-global";
 				VALID_ARCHS = "armv7 arm64 i386 x86_64";

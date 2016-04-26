@@ -34,20 +34,20 @@ public class AppViewController extends UIViewController {
 
     @Override
     public void viewDidLoad() {
-        statusText = getLabel();
-        helloButton = getHelloButton();
+//        statusText = getLabel();
+//        helloButton = getHelloButton();
     }
 
-    @Selector("statusText")
-    @Property
-    public native UILabel getLabel();
-
-    @Selector("helloButton")
-    @Property
-    public native UIButton getHelloButton();
-
-    @Selector("BtnPressedCancel_helloButton:")
-    public void BtnPressedCancel_button(NSObject sender){
-        statusText.setText("Hello Intel Multi-OS Engine!");
-    }
+//    @Selector("statusText")
+//    @Property
+//    public native UILabel getLabel();
+//
+//    @Selector("helloButton")
+//    @Property
+//    public native UIButton getHelloButton();
+//
+//    @Selector("BtnPressedCancel_helloButton:")
+//    public void BtnPressedCancel_button(NSObject sender){
+//        statusText.setText("Hello Intel Multi-OS Engine!");
+//    }
 }

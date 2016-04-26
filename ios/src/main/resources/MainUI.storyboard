@@ -1,59 +1,124 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7cde49d8-30c2-4874-b049-13abd6881196">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aa6585a5-8519-4bbe-bb32-765584b3880b">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--App View Controller-->
-        <scene sceneID="70897db2-80b4-4c4c-84f8-8a1d6b01f452">
+        <scene sceneID="6c27c8d2-c78b-4141-bc11-8cb577514ec1">
             <objects>
-                <viewController id="7cde49d8-30c2-4874-b049-13abd6881196" customClass="AppViewController" sceneMemberID="viewController">
+                <viewController id="aa6585a5-8519-4bbe-bb32-765584b3880b" customClass="AppViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3ee49c6b-fecd-4e25-aee8-2aeefc887152"/>
-                        <viewControllerLayoutGuide type="bottom" id="b7dbb143-5139-4b80-8bce-52404f4127ec"/>
+                        <viewControllerLayoutGuide type="top" id="a623e3d9-e506-4700-b0d4-b8b93a4783bf"/>
+                        <viewControllerLayoutGuide type="bottom" id="f0c46c9d-e66a-4a26-84bf-328361a7d28e"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="3795f91e-d6ca-41f4-8a7c-512816472835">
+                    <view key="view" contentMode="scaleToFill" id="9f488935-fef8-43c9-83c8-93d70331e03e">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" contentMode="scaleToFill" text="Label" lineBreakMode="tailTruncation" id="e5c70b3f-d9bb-4465-a6a9-010c50c3483d">
-                                <rect key="frame" x="10" y="10" width="590" height="290"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b65af97f-9e95-44f4-9f34-1543ceea6bd1">
-                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Press me!">
-                                    <color key="titleColor" red="0.0" green="0.20000000000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="BtnPressedCancel_helloButton:" destination="7cde49d8-30c2-4874-b049-13abd6881196" eventType="touchUpInside" id="06dc74cb-9ca4-4ee7-984a-5bf3a2a5ef96"/>
-                                </connections>
-                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="592864d9-3bb9-4792-8a63-0a9fe69635bc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="904ca3db-20ed-460a-96a5-cc06032bc7bb">
+                                        <rect key="frame" x="0.0" y="22" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="904ca3db-20ed-460a-96a5-cc06032bc7bb" id="a0f7631f-9a08-41bf-8a9d-bf4c7b96e487">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" id="66484f2a-6bc5-4e15-ac0c-a3f84fa01655">
+                                                    <rect key="frame" x="0.0" y="21" width="0.0" height="0.0"/>
+                                                    <subviews>
+                                                        <view contentMode="scaleToFill" id="9070931d-4a04-4fb7-8747-7eb09dc6036c">
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" id="455f0073-d4e2-4d99-bfff-35338239358d">
+                                                                    <subviews>
+                                                                        <imageView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7e5926e4-52f5-45f3-91bb-f5fd8bf50cfb">
+                                                                            <rect key="frame" x="82" y="-27" width="64" height="59"/>
+                                                                            <color key="backgroundColor" red="0.20000000000000001" green="0.49019607843137253" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                                </view>
+                                                                <label opaque="NO" contentMode="scaleToFill" text="VS" lineBreakMode="tailTruncation" id="d4b642e3-8e34-46d8-92c0-75bff05a8d18">
+                                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <view contentMode="scaleToFill" id="ea2bb0bd-5f3e-4541-b28e-b543562c4944">
+                                                                    <subviews>
+                                                                        <imageView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5e685af8-7b6c-46f0-b632-70490f65c50f">
+                                                                            <color key="backgroundColor" red="1" green="0.30196078431372547" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        </imageView>
+                                                                    </subviews>
+                                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                                    <constraints>
+                                                                        <constraint firstItem="5e685af8-7b6c-46f0-b632-70490f65c50f" firstAttribute="leading" secondItem="ea2bb0bd-5f3e-4541-b28e-b543562c4944" secondAttribute="leading" id="6810a0d6-c8a0-4633-86ad-ec500565e53d"/>
+                                                                        <constraint firstItem="5e685af8-7b6c-46f0-b632-70490f65c50f" firstAttribute="top" secondItem="ea2bb0bd-5f3e-4541-b28e-b543562c4944" secondAttribute="top" id="b81c5505-d322-484a-9cbb-8419433ad8fd"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="5e685af8-7b6c-46f0-b632-70490f65c50f" secondAttribute="trailing" id="e585ad59-0a74-434c-ae0f-5044a75361c3"/>
+                                                                        <constraint firstAttribute="bottom" secondItem="5e685af8-7b6c-46f0-b632-70490f65c50f" secondAttribute="bottom" id="f35ac8d5-ab5d-4d62-aefa-f85c63578eee"/>
+                                                                    </constraints>
+                                                                </view>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                        </view>
+                                                        <view contentMode="scaleToFill" id="180a2e28-3307-4411-90c0-f7e3fdb3b228">
+                                                            <subviews>
+                                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7da5061-a2ef-41e1-9da9-bfaae36538df">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                    <state key="normal" title="BET">
+                                                                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dba6b14a-686a-4b1a-afc5-597480a3f944">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="44" height="30"/>
+                                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                    <state key="normal" title="DRAW">
+                                                                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    </state>
+                                                                </button>
+                                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cd8924c1-1b44-491b-8988-a0134d875b0b">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                    <state key="normal" title="BET">
+                                                                        <color key="titleColor" red="0.0" green="0.20000000000000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                                    </state>
+                                                                </button>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                        </view>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" firstAttribute="bottom" secondItem="b65af97f-9e95-44f4-9f34-1543ceea6bd1" secondAttribute="top" priority="950" id="09d54d28-144c-4f45-9935-44ca04835032"/>
-                            <constraint firstItem="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" firstAttribute="height" secondItem="b65af97f-9e95-44f4-9f34-1543ceea6bd1" secondAttribute="height" priority="500" constant="-10" id="1cf4681e-7dc0-496a-8840-99adee10f7fe"/>
-                            <constraint firstItem="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" firstAttribute="leading" secondItem="3795f91e-d6ca-41f4-8a7c-512816472835" secondAttribute="leading" priority="950" constant="10" id="378b40c6-cf26-4a2d-8dca-087a7b6f458f"/>
-                            <constraint firstAttribute="bottom" secondItem="b65af97f-9e95-44f4-9f34-1543ceea6bd1" secondAttribute="bottom" priority="900" id="41616083-18d1-4392-9462-c2fc413f8fca"/>
-                            <constraint firstItem="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" firstAttribute="top" secondItem="3795f91e-d6ca-41f4-8a7c-512816472835" secondAttribute="top" priority="950" constant="10" id="5c27818c-bd45-4b5d-bb54-f49df891e4da"/>
-                            <constraint firstItem="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" firstAttribute="width" secondItem="b65af97f-9e95-44f4-9f34-1543ceea6bd1" secondAttribute="width" priority="500" constant="-10" id="5e71db06-bc96-4505-86b9-075f1771465d"/>
-                            <constraint firstItem="b65af97f-9e95-44f4-9f34-1543ceea6bd1" firstAttribute="leading" secondItem="3795f91e-d6ca-41f4-8a7c-512816472835" secondAttribute="leading" priority="950" id="814b161d-14f3-4243-8403-98d2c21141c4"/>
-                            <constraint firstAttribute="trailing" secondItem="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" secondAttribute="trailing" priority="900" id="9459141c-1947-4f61-bbbe-8e34490ff9b3"/>
-                            <constraint firstAttribute="trailing" secondItem="b65af97f-9e95-44f4-9f34-1543ceea6bd1" secondAttribute="trailing" priority="900" id="e333ddbf-d987-40e6-a652-ef9deda92665"/>
+                            <constraint firstItem="7e5926e4-52f5-45f3-91bb-f5fd8bf50cfb" firstAttribute="leading" secondItem="455f0073-d4e2-4d99-bfff-35338239358d" secondAttribute="leading" id="11ee9263-b927-4310-8389-44f90189c22c"/>
+                            <constraint firstItem="592864d9-3bb9-4792-8a63-0a9fe69635bc" firstAttribute="top" secondItem="9f488935-fef8-43c9-83c8-93d70331e03e" secondAttribute="top" priority="950" id="539e6899-dade-4f2e-86af-7fd6bf24fa42"/>
+                            <constraint firstAttribute="bottom" secondItem="7e5926e4-52f5-45f3-91bb-f5fd8bf50cfb" secondAttribute="bottom" id="660f1916-a708-4483-a59e-f2fbd8c74a41"/>
+                            <constraint firstItem="592864d9-3bb9-4792-8a63-0a9fe69635bc" firstAttribute="leading" secondItem="9f488935-fef8-43c9-83c8-93d70331e03e" secondAttribute="leading" priority="950" id="93b6e37d-bd33-4f67-9cf8-59e83ab62dd0"/>
+                            <constraint firstAttribute="trailing" secondItem="592864d9-3bb9-4792-8a63-0a9fe69635bc" secondAttribute="trailing" priority="900" id="afcd8dcc-812b-4102-8bef-1be2bdb4a299"/>
+                            <constraint firstAttribute="bottom" secondItem="592864d9-3bb9-4792-8a63-0a9fe69635bc" secondAttribute="bottom" priority="900" id="d1698c7c-3b2d-4716-8156-6bf6b6b4a24f"/>
+                            <constraint firstAttribute="trailing" secondItem="7e5926e4-52f5-45f3-91bb-f5fd8bf50cfb" secondAttribute="trailing" id="ecd0c368-7e3e-4e08-8099-1b146f19a9cc"/>
+                            <constraint firstItem="7e5926e4-52f5-45f3-91bb-f5fd8bf50cfb" firstAttribute="top" secondItem="455f0073-d4e2-4d99-bfff-35338239358d" secondAttribute="top" id="ffd0e4dc-f4a0-4b0e-9f0f-f9ac8558e960"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="helloButton" destination="b65af97f-9e95-44f4-9f34-1543ceea6bd1" id="7db9522a-98f3-4c9a-85ab-0bd92469a4b6"/>
-                        <outlet property="statusText" destination="e5c70b3f-d9bb-4465-a6a9-010c50c3483d" id="8098dc8d-d343-45ab-9556-864f91e034ee"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d7b1b23f-e217-49bd-9a55-ef726437a989" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ea11da81-fa20-4908-9214-7ca9d389aed3" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="181.33333333333334" y="395.70666666666665"/>
         </scene>
